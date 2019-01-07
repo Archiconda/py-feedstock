@@ -1,6 +1,8 @@
 About py
 ========
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://github.com/pytest-dev/py
 
 Package license: MIT
@@ -14,8 +16,10 @@ Summary: library with cross-python path, ini-parsing, io, code, log facilities
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/py-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/py-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/py-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/py-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/py-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/py-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/py-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c32ce7d302eb707003c097b/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/py-feedstock)
 
 Current release info
 ====================
@@ -103,3 +107,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+* [@nicoddemus](https://github.com/nicoddemus/)
+
